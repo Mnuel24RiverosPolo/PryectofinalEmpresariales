@@ -1,0 +1,133 @@
+.container {
+  background-color: #ff344c;
+  width: 100%;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+
+.container .logo {
+  margin: 10px;
+  background-color: beige;
+}
+
+.container .logo img {
+  height: 40px;
+  width: 80px;
+}
+
+.container .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .search img {
+  cursor: pointer;
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.container .cart_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .cart_container .login_signup {
+  margin-right: 10px;
+}
+
+.container .cart_container img {
+  height: 30px;
+  width: 30px;
+}
+
+.container .cart_container .cart {
+  z-index: 1;
+  margin-right: 10px;
+}
+
+.container .cart_container .cart .buble {
+  height: 20px;
+  width: 20px;
+  background-color: #ec1f1f;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  z-index: 2;
+  display: inline-block;
+  top: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=styles.module.css.map */
+
+
+
+
+.container .wrap .search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.container .wrap .searchTerm {
+  width: 100%;
+  border: 3px solid #820808;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.container .wrap .searchTerm:focus{
+  color:#820808;
+}
+
+.container .wrap .searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid#820808;
+  background:#820808;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.container .wrap{
+  width: 30%;
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
